@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title> Madison Ell </title>
-    <link rel="stylesheet" type="text/css" href="styles.css" media="all"/>
-
+    <meta charset="UTF-8">
+    <title>Madison Ell</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1 class="title"> Madison Ell </h1>
-    <h2 class="title"> Developer </h2>
+    <header>
+      <h1 class="title">Madison Ell</h1>
+      <h2 class="title">Developer</h2>
+    </header>
+    
+    <main>
+      <section>
+        <!-- Some catchy introduction here.. -->
+      </section> 
+    </main>
 
-    <section> </section> <!--Some catchy introduction here..-->
-    <footer class="row-footer" style="margin-top:3%">
+    <footer class="row-footer">
       <div class="container">
-        <div class="row">
-          <center>
-            <div class="social-icons">
-              <a href="https://twitter.com/madison_ell1" target="_blank" class="fa fa-lg fa-twitter"
-                style="margin-left:0.5%"></a>
-              <a href="https://github.com/mell00" target="_blank" class="fa fa-lg fa-github"
-                style="margin-left:0.5%"></a>
-              <a href="https://www.linkedin.com/in/madisonell/" target="_blank" class="fa fa-lg fa-linkedin"
-                style="margin-left:0.5%"></a>
-              <a id="#mail" href = "mailto:madison.ell4@gmail.com">madison.ell4@gmail.com</a>
-              <a href="resume.pdf" target="_blank"> <span class="fa fa-file-pdf-o" style="margin-left:0.5%"></span></a>
-              <div class="copyright-container" style="margin-top:0.5%">
-                <span class="copyright">&copy;</span> Madison Ell 2020
-                <script>new Date().getFullYear() > 2016 && document.write("-" + new Date().getFullYear());</script>
-              </div>
+        <div class="row center-content">
+          <div class="social-icons">
+            <a href="https://twitter.com/madison_ell1" target="_blank" class="fa fa-lg fa-twitter"></a>
+            <a href="https://github.com/mell00" target="_blank" class="fa fa-lg fa-github"></a>
+            <a href="https://www.linkedin.com/in/madisonell/" target="_blank" class="fa fa-lg fa-linkedin"></a>
+            <a id="mail" href="mailto:madison.ell4@gmail.com">madison.ell4@gmail.com</a>
+            <a href="resume.pdf" target="_blank" class="fa fa-file-pdf-o"></a>
+            <div class="copyright-container">
+              <span class="copyright">&copy; Madison Ell 2020</span>
+              <script>
+                if (new Date().getFullYear() > 2020) {
+                  document.write("-" + new Date().getFullYear());
+                }
+              </script>
             </div>
-          </center>
+          </div>
         </div>
       </div>
     </footer>
