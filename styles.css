@@ -25,5 +25,4 @@
     width: 20%;  /* or any size you want */
     max-width: 300px;  /* or any size you want */
     height:auto;
-    transform: rotate(90deg); /* Added this line to rotate the image */
 }
