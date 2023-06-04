@@ -17,3 +17,12 @@
   margin-top: 0.5%;
 }
 
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    width: 100%;  /* or any size you want */
+    max-width: 300px;  /* or any size you want */
+    transform: rotate(90deg); /* Added this line to rotate the image */
+}
