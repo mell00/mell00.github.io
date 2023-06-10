@@ -39,7 +39,7 @@ footer .row-footer {
 
 footer .social-icons a {
     margin: 0 10px;
-    color: #000;
+    color: #000 !important; /* Add !important to override other styles */
     text-decoration: none;
 }
 
