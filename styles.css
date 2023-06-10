@@ -5,6 +5,8 @@
 .center-text {
   margin: 50px auto; /* Add margin to create space */
   max-width: 600px; /* Optional: Limit the width of the center-text */
+  margin-left: auto;
+  margin-right: auto;
   /*margin-left: 150px;
   margin-right: 150px;*/
 }
